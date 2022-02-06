@@ -1,0 +1,134 @@
+/* Color pallete:
+pink: #cc6699
+blue:  #2B3B84
+yellow: #fcee21
+aqua: #11a8cd
+*/
+
+/* General Settings */
+.margin-auto {
+    margin: 0 auto;
+}
+  
+.extra-margin {
+    margin: 0 100px;
+}
+  
+.is_flex_wrap {
+    display: flex !important;
+    flex-wrap: wrap-reverse;
+}
+
+/* Nav Bar Settings */
+
+nav {
+    background-color: transparent !important;
+    margin: 0 auto;
+    
+  }
+
+  .navbar-start {
+/*    flex-grow: 1;*/
+      margin: 0 auto;
+    align-items: center;
+  justify-content: flex-end;
+  }
+
+.navbar-menu img{
+   width: 200px;
+    margin-top: 2%;
+    align-items: flex-end;
+  justify-content: flex-end;
+    
+}
+
+  .navbar-item {
+      color: black !important; 
+      text-transform: uppercase;
+  }
+  :root {
+    --mainColor: #000000;
+      
+}
+  
+a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+    align-items: center !important;
+}
+  
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: black !important;
+    
+}
+
+
+  
+/* Home/About */
+.parent_home{
+    background-color: #FFA800;
+}
+#home_banner{
+    background-size: cover;
+    background: #FFA800;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+  
+.typewrite {
+    margin-top: -12%;
+    position: absolute;
+    color: black !important;
+    font-size: 1500%;
+/*    font-weight: bold;*/
+    line-height: 90%;
+    width: 30%;
+}
+
+
+#about_banner {
+    background: #2B3B84;
+    height: 200px;
+    width: 100%;
+    border-radius: 0 50% 0 0;
+    display: flex;
+    margin-top: 5%;
+/*    margin: 10px;*/
+}
+
+
+
+
+/* Seminars */
+.parent_seminars{
+    background-color: #cc6699;
+}
+#seminars_banner {
+    background-size: cover;
+    background: #cc6699;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+/* Responses */
+.parent_responses{
+    background-color: #11a8cd;
+}
+#contact_responses {
+    background-size: cover;
+    background: #11a8cd;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
