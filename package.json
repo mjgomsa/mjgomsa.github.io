@@ -12,6 +12,7 @@
     "lite-server": "^1.3.4"
   },
   "dependencies": {
-    "bulma": "^0.9.3"
+    "bulma": "^0.9.3",
+    "hover.css": "^2.3.2"
   }
 }
