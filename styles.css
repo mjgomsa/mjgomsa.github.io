@@ -96,7 +96,7 @@ a:hover {
     color: black !important;
     font-size: 1500%;
 /*    font-weight: bold;*/
-    line-height: 90%;
+    line-height: 75%;
     width: 30%;
 }
 
@@ -107,7 +107,7 @@ a:hover {
     width: 100%;
     border-radius: 0 50% 0 0;
     display: flex;
-    margin-top: 5%;
+    margin-top: -20%;
 /*    margin: 10px;*/
 }
 
