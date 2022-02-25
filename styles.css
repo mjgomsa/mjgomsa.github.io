@@ -48,11 +48,11 @@ nav {
 }
 
   .navbar-item {
-      color: black !important; 
+      color: white !important; 
       text-transform: uppercase;
   }
   :root {
-    --mainColor: #000000;
+    --mainColor: #fcee21;
 
 }
 
@@ -61,18 +61,18 @@ a {
       background-position: 0 100%;
       background-repeat: repeat-x;
       background-size: 3px 3px;
-    color: #000;
+    color: #fcee21;
     text-decoration: none;
     align-items: center !important;
 }
 
 a:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fcee21' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 6px;
     background-repeat: repeat-x;
     text-decoration: none;
-    color: black !important;
+    color: white !important;
 
 }
 
@@ -80,11 +80,11 @@ a:hover {
 
 /* Home/About */
 .parent_home{
-    background-color: #FFA800;
+    background-color: #cd3072;
 }
 #home_banner{
     background-size: cover;
-    background: #FFA800;
+    background: #cd3072;
     margin: 0 auto;
     padding-top: 2vh;
     padding-bottom: 10vh;
@@ -92,7 +92,8 @@ a:hover {
 
 .typewrite {
     position: absolute;
-    color: black !important;
+    color: #fcee21 !important;
+    text-shadow: -1px 0 #fcee21, 0 1px #fcee21, 1px 0 #fcee21, 0 -1px #fcee21;
     font-size: 1200%;
    font-weight: bold;
     line-height: 82%;
@@ -101,7 +102,7 @@ a:hover {
 
 
 #about_banner {
-    background: #ffd178;
+    background: #cd5e8d;
 /*    height: 200px;*/
     width: 100%;
     border-radius: 0 50% 0 0;
@@ -112,21 +113,33 @@ a:hover {
 
 .bold{
     font-weight: 600;
+    /* color: #fcee21 */
 }
 
 #about_container{
     font-family: 'Roboto', sans-serif;
+    color: white;
 /*    font-weight: 600;*/
+}
+#about_containner, #about_page_heading{
+    color: #cd3072 !important;
+    text-shadow: -1px 0 #cd3072, 0 1px #cd3072, 1px 0 #cd3072, 0 -1px #cd3072;
+    font-size: 1000%;
+   font-weight: bold;
+   position:relative;
+   padding: 0%;
+   margin-bottom: -10%;
+   margin-top: 0;
 }
 
 
 /* Seminars */
 .parent_seminars{
-    background-color: #cc6699;
+    background-color: #ba9ea6;
 }
 #seminars_banner {
     background-size: cover;
-    background: #cc6699;
+    background: #ba9ea6;
     margin: 0 auto;
     padding-top: 2vh;
     padding-bottom: 5vh;
@@ -135,11 +148,11 @@ a:hover {
 /* Responses */
 .parent_responses{
 /*    background-color: #11a8cd;*/
-    background-color: #FA8072;
+    background-color: #32327c;
 }
 #contact_responses {
     background-size: cover;
-    background: #11a8cd;
+    background: #552f75;
     margin: 0 auto;
     padding-top: 2vh;
     padding-bottom: 5vh;
@@ -247,20 +260,41 @@ a:hover {
 }
 
 
-/* BLOG*/
+/* BLOG--seminars*/
 .parent_blog{
-    background-color: #11a8cd;
+    background-color: #992476;
 }
 
 #blog_banner{
     background: white;
     width: 100%;
     border-radius: 25% 25% 0 0;
+    border: 20px solid #ffeb00;
     display: flex;
     margin-top: 5%;
 }
 
 #blog_container{
+    font-family: 'Roboto', sans-serif;
+/*    font-weight: 600;*/
+}
+
+/* BLOG--responses*/
+.parent_blog_r{
+    background-color: #453075;
+}
+
+#blog_banner_r{
+    background: #4e4882;
+    width: 100%;
+    border-radius: 25% 25% 0 0;
+    border: 20px solid #ffeb00;
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+#blog_container_r{
     font-family: 'Roboto', sans-serif;
 /*    font-weight: 600;*/
 }
