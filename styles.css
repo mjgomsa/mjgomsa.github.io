@@ -50,6 +50,7 @@ nav {
   .navbar-item {
       color: white !important; 
       text-transform: uppercase;
+      font-size: 110%;
   }
   :root {
     --mainColor: #fcee21;
