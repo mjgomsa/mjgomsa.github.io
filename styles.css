@@ -95,10 +95,10 @@ a:hover {
     position: absolute;
     color: #fcee21 !important;
     text-shadow: -1px 0 #fcee21, 0 1px #fcee21, 1px 0 #fcee21, 0 -1px #fcee21;
-    font-size: 1200%;
+    font-size: 14vw;
    font-weight: bold;
     line-height: 82%;
-    width: 30%;
+    width: 1vw;
 }
 
 
@@ -126,7 +126,7 @@ a:hover {
 #about_containner, #about_page_heading{
     color: #cd3072 !important;
     text-shadow: -1px 0 #cd3072, 0 1px #cd3072, 1px 0 #cd3072, 0 -1px #cd3072;
-    font-size: 1000%;
+    font-size: 12vw;
    font-weight: bold;
    position:relative;
    padding: 0%;
@@ -312,3 +312,18 @@ a:hover {
     padding-top: 5%;
     padding-bottom: 1%;
 }
+
+/* DOM BREAKPOINTS */
+@media only screen and (max-width: 1100px) {
+    [class*="typewrite"] {
+      font-size: 25vw;
+    }
+    [class*="navbar"] {
+        background:inherit;
+        color: inherit;
+    }
+    /* [class*="navbar-item:hover"] { 
+        background:red;
+    } */
+    
+  }
