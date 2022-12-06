@@ -1,0 +1,302 @@
+/* General Settings */
+.margin-auto {
+    margin: 0 auto;
+}
+
+.extra-margin {
+    margin: 0 100px;
+}
+
+.is_flex_wrap {
+    display: flex !important;
+    flex-wrap: wrap-reverse;
+}
+
+#page_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+/* Nav Bar Settings */
+
+nav {
+    background-color: transparent !important;
+    margin: 0 auto;
+
+  }
+
+  .navbar-start {
+      margin: 0 auto;
+    align-items: center;
+  justify-content: flex-end;
+  }
+
+.navbar-menu img{
+   width: 200px;
+    margin-top: 2%;
+    align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+  .navbar-item {
+      color: black !important; 
+      text-transform: uppercase;
+      font-size: 110%;
+      font-family: 'Coolvetica';
+  }
+  :root {
+    --mainColor: #fcee21;
+
+}
+
+a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    color: black;
+    text-decoration: none;
+    align-items: center !important;
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fcee21' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #ed722e !important;
+
+}
+
+
+
+/* Home/About */
+.parent_home{
+    background-color: white;
+}
+#home_banner{
+    background-size: cover;
+    background: white;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.typewrite {
+    position: absolute;
+    color: #ed722e !important;
+    text-shadow: -1px 0 #ed722e, 0 1px #ed722e, 1px 0 #ed722e, 0 -1px #ed722e;
+    font-size: 14vw;
+   font-weight: bold;
+    line-height: 82%;
+    width: 1vw;
+}
+
+
+#about_banner {
+    background: #d5686c;
+    /* background-image: url("/assets/images/textures/p.png");
+    background-size: cover; */
+/*    height: 200px;*/
+    width: 100%;
+    border-radius: 0 50% 0 0;
+    display: flex;
+    margin-top: -7%;
+/*    margin: 10px;*/
+}
+
+
+.bold{
+    font-weight: 600;
+    /* color: #fcee21 */
+}
+
+#about_container{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+/*    font-weight: 600;*/
+}
+#about_containner, #about_page_heading{
+    color: #d74449 !important;
+    text-shadow: -1px 0 #d74449, 0 1px #d74449, 1px 0 #d74449, 0 -1px #d74449;
+    font-size: 12vw;
+   font-weight: bold;
+   position:relative;
+   padding: 0%;
+   margin-bottom: -10%;
+   margin-top: 0;
+}
+
+#about_container, p {
+    margin: 0 auto;
+    font-size:larger;
+}
+
+
+/* PROJECTS */
+
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--auto-grid-min-size, 25rem), 1fr)
+    );
+    grid-gap: var(--auto-grid-gap, 0);
+    padding: 1rem;
+  }
+  
+  .flow > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+  
+  /* Composition */
+  .team {
+    --flow-space: 2em;
+  }
+  
+  /* Blocks */
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    aspect-ratio: 1/1;
+    position: relative;
+    padding: 1.5rem;
+    color: #ffffff;
+    backface-visibility: hidden;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .profile::before,
+  .profile::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*inset: 0;*/
+    top: 0;
+    left: 0;
+  }
+  
+  .profile::before {
+    background: linear-gradient(
+      to top,
+      hsl(0 0% 0% / 0.79) 0%,
+      hsl(0 0% 0% / 0.787) 7.8%,
+      hsl(0 0% 0% / 0.779) 14.4%,
+      hsl(0 0% 0% / 0.765) 20.2%,
+      hsl(0 0% 0% / 0.744) 25.3%,
+      hsl(0 0% 0% / 0.717) 29.9%,
+      hsl(0 0% 0% / 0.683) 34.3%,
+      hsl(0 0% 0% / 0.641) 38.7%,
+      hsl(0 0% 0% / 0.592) 43.3%,
+      hsl(0 0% 0% / 0.534) 48.4%,
+      hsl(0 0% 0% / 0.468) 54.1%,
+      hsl(0 0% 0% / 0.393) 60.6%,
+      hsl(0 0% 0% / 0.31) 68.3%,
+      hsl(0 0% 0% / 0.216) 77.3%,
+      hsl(0 0% 0% / 0.113) 87.7%,
+      hsl(0 0% 0% / 0) 100%
+    );
+    transition: 300ms opacity linear;
+  }
+  
+  .profile::after {
+    background: linear-gradient(
+      45deg,
+      hsl(5 97% 63% / 0.7) 0,
+      hsl(5 97% 63% / 0) 100%
+    );
+    opacity: 0;
+    transition: 300ms opacity linear;
+  }
+  
+  .profile > * {
+    z-index: 1;
+  }
+  
+  .profile img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: filter 200ms ease, transform 250ms linear;
+  }
+  
+  .profile h2,
+  .profile p {
+    transform: translateY(2ex);
+  }
+  
+  .profile h2 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.03ch;
+    transition: 300ms transform ease;
+  }
+  
+  .profile p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .profile p {
+    opacity: 0;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+  }
+  
+  .profile:focus {
+    outline: 0.5rem solid white;
+    outline-offset: -0.5rem;
+  }
+  
+  .profile:hover :is(h2, p),
+  .profile:focus :is(h2, p) {
+    transform: none;
+  }
+  
+  .profile:hover::after,
+  .profile:focus::after,
+  .profile:hover::before,
+  .profile:focus::before {
+    opacity: 0.7;
+  }
+  
+  .profile:hover p,
+  .profile:focus p {
+    opacity: 1;
+    transition-delay: 200ms;
+  }
+  
+  .profile:hover img,
+  .profile:focus img {
+    filter: grayscale(0);
+    transform: scale(1.05) rotate(1deg);
+  }
+  
+
+/* DOM BREAKPOINTS */
+@media only screen and (max-width: 1100px) {
+    [class*="typewrite"] {
+      font-size: 25vw;
+    }
+    [class*="navbar"] {
+        background:inherit;
+        color: inherit;
+    }
+    /* [class*="navbar-item:hover"] { 
+        background:red;
+    } */
+    
+  }
+
+  

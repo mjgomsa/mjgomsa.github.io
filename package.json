@@ -1,0 +1,23 @@
+{
+  "name": "mjgomsa.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjgomsa/mjgomsa.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjgomsa/mjgomsa.github.io/issues"
+  },
+  "homepage": "https://github.com/mjgomsa/mjgomsa.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bulma": "^0.9.4"
+  }
+}

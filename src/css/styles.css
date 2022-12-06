@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('/assets/fonts/coolvetica-rg.otf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* NavBar Settings */
+
+nav {
+    background-color: transparent !important;
+  }
+.navbar-start,
+.navbar-end{
+    flex: 1 1 0;
+}
+.navbar-start {
+    justify-content: flex-end;
+}
+.navbar-end {
+    justify-content: flex-start;
+}
+
+.logo{
+    /* width: 200px; */
+    height: 250px ;
+ }
+
+
+.navbar-item {
+    color: black !important; 
+    text-transform: uppercase;
+    font-size: 110%;
+    font-family: 'Coolvetica';
+
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 60%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+    align-items: center !important;
+}
+:root {
+    --mainColor: #fcee21;
+
+}
+  
+  
+  .navbar-item:hover {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fcee21' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+      background-position: 0 60%;
+      background-size: auto 6px;
+      background-repeat: repeat-x;
+      text-decoration: none;
+      color: #ed722e !important;
+  
+  }
