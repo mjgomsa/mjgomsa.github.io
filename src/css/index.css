@@ -23,6 +23,9 @@
     font-display: swap;
 }
 
+*{
+    zoom: 97%;
+}
 
 /* NavBar Settings */
 
