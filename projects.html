@@ -3,83 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>MJ Gomez-Saavedra | Projects</title>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="node_modules/bulma/css/bulma.css">
-    <link rel="stylesheet" href="node_modules/hover.css/css/hover.css">
-    <link rel="stylesheet" type="text/css" href="/src/css/styles.css">  
+    <link rel="stylesheet" type="text/css" href="/src/css/index.css">  
+    <link rel="stylesheet" type="text/css" href="/src/css/projects.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
 <body>
-    <div class="parent_home">
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">  
-                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="mynav">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+    <div class="parent_projects">
+      <div class="columns">
+        <div class="column is-12">
+            <nav class="navbar is-transparent has-centered-logo-alt" role="navigation" aria-label="main navigation">
+              <div class="navbar-brand is-hidden-desktop">
+                      <img src="/assets/images/logo-blk.png" style="height:100px">
+                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
+                      <span aria-hidden="true"></span>
                   </a>
-            </div>
-
-            <div class="navbar-menu is-active" id="mynav">
-                <div class="navbar-start" >
-                    <a class="navbar-item" href = "index.html">Home</a>
-                    <a class="navbar-item" href = "index.html#about_banner">About</a>
-                    <img class = "logo"src="/assets/images/logo-blk.png" width="500">
-                    <a class="navbar-item" href = "projects.html">Projects</a>
-                    <a class="navbar-item">Contact</a>
-                </div>
-            </div>
-        </nav>
+              </div>
+              <div id="navbarBasicExample" class="navbar-menu">
+                  <div class="navbar-start">
+                      <a class="navbar-item" href = "index.html"> Home </a>
+                      <a class="navbar-item" href = "index.html#about_banner"> About </a>
+                  </div>
+                  <div class="navbar-brand is-hidden-touch">
+                          <img class = "logo" src="/assets/images/logo-blk.png">
+                      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                          <span aria-hidden="true"></span>
+                      </a>
+                  </div>
+                  <div class="navbar-end">
+                      <a class="navbar-item" href = "projects.html"> Projects </a>
+                      <a class="navbar-item"> Contact </a>
+                  </div>
+              </div>
+          </nav>
+        </div>
     </div> 
         <article class="flow">
             <div class="team">
               <ul class="auto-grid" role="list">
                 <li>
                     <!-- target = _blank" -->
-                  <a href="https://swop.link/cool"  class="profile">
+                  <a href="/src/html/bah.html"  class="profile" >
                     <h2 class="profile__name">Bah-Bah-Grass</h2>
                     <p>Video Game</p>
-                    <!-- <img src="/assets/images/placeholder.png"> -->
+                    <img src="/assets/images/projects-bah.png">
                   </a>
                 </li>
                 <li>
-                  <a href="https://swop.link/cool"  class="profile">
+                  <a href="/src/html/fruit.html"  class="profile">
                     <h2 class="profile__name">Fruit Dodge</h2>
                     <p>Video Game</p>
-                    <!-- <img alt="Profile shot for Celina Harris" src="https://source.unsplash.com/j5KAuRrYX7g/800x800"> -->
+                    <img src="/assets/images/projects-fruit.png">
                   </a>
                 </li>
                 <li>
-                  <a href="https://swop.link/cool" class="profile">
+                  <a href="/src/html/bar.html" class="profile">
                     <h2 class="profile__name">Bar Brawl</h2>
                     <p>Video Game</p>
-                    <!-- <img alt="Profile shot for Ruby Morris" src="https://source.unsplash.com/pQyIutdScOY/800x800"> -->
+                    <img src="/assets/images/projects-crawl.png">
                   </a>
                 </li>
                 <li>
                   <a href="https://swop.link/cool" class="profile">
                     <h2 class="profile__name">V et F</h2>
                     <p>3D Scanning/ Photogrammetry</p>
-                    <!-- <img alt="Profile shot for Nicholas Castro" src="https://source.unsplash.com/55JRsxcAiWE/800x800"> -->
+                    <img src="/assets/images/projects-vf.png">
                   </a>
                 </li>
                 <li>
                   <a href="https://swop.link/cool"  class="profile">
                     <h2 class="profile__name">In a NY Minute</h2>
                     <p>Data Visualization</p>
-                    <!-- <img alt="Profile shot for Marc Dixon" src="https://source.unsplash.com/5wn6DeAEcmE/800x800"> -->
+                    <img src="/assets/images/projects-time.png">
                   </a>
                 </li>
                 <li>
                   <a href="https://swop.link/cool" class="profile">
                     <h2 class="profile__name">Virtual Stylist</h2>
                     <p>Mixed</p>
-                    <!-- <img alt="Profile shot for Chad" src="https://source.unsplash.com/7jCYw6a2Wao/800x800"> -->
+                    <img src="/assets/images/projects-stylist.png">
                   </a>
                 </li>
               </ul>
             </div>
           </article>
+        </div>
     
 
     <footer class="footer">
@@ -90,8 +104,7 @@
         </div>
     </footer>
 
-    <script src="autoText.js"></script>
-    <script async type="text/javascript" src="./js/bulma.js"></script>
+    <script src="./src/js/navburger.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,164 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('/assets/fonts/coolvetica-rg.otf');  
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'StretchPro';
+    src: url('/assets/fonts/StretchPro.otf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boldblaster';
+    src: url('/assets/fonts/Boldblaster-Regular.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* NavBar Settings */
+
+nav {
+    background-color: transparent !important;
+  }
+.navbar-start,
+.navbar-end{
+    flex: 1 1 0;
+}
+.navbar-start {
+    justify-content: flex-end;
+    padding-left: 35%;
+}
+.navbar-end {
+    justify-content: flex-start;
+    padding-right: 35%;
+}
+
+.logo{
+    height: 250px ;
+ }
+
+.navbar-item {
+    color: black !important; 
+    text-transform: uppercase;
+    font-size: 110%;
+    font-family: 'Coolvetica';
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 60%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+    align-items: center !important;
+}
+:root {
+    --mainColor: #000;
+
+}
+   
+.navbar-item:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 60%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #e04046 !important;
+
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-start,
+    .navbar-end{
+        justify-content: center;
+        padding: 0;
+    } 
+
+    .navbar-item{
+        background-position: 0 90%;
+        background-color: transparent !important;
+    }
+
+    .navbar-item:hover {
+        background-position: 0 90%;
+    }
+}
+
+/* HOME/ABOUT */
+.parent_home{
+    /* background-color: white; */
+    background-image: url("/assets/images/bkgd-shapes-try.png");
+    background-size:cover;
+    /* background-repeat: repeat-x; */
+}
+#home_banner{
+    /* background: white; */
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.typewrite {
+    position: absolute;
+    margin-top: 15%;
+    color: #000 !important;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-size: 14vw;
+   font-weight: bold;
+    line-height: 82%;
+    width: 1vw;
+}
+
+
+#about_banner {
+    background: transparent;
+    border-top: 50px solid black;
+    width: 100%;
+    border-radius: 0 50% 0 0;
+    display: flex;
+    margin-top: -7%;
+}
+
+
+.bold{
+    font-weight: 600;
+    /* color: #fcee21 */
+}
+
+#about_container{
+    font-family: 'Coolvetica';
+    color: black;
+    font-weight: 600;
+}
+ #about_page_heading{
+    font-family: 'StretchPro';
+    color: black !important;
+    font-size: 8vw;
+   font-weight: bold;
+   position:relative;
+   padding: 0%;
+   margin-bottom: -10%;
+   margin-top: 0;
+}
+
+#about_page_subheading{
+    font-family: 'Boldblaster';
+    color: black !important;
+    font-size: 3vw;
+}
+
+#about_container, p {
+    margin: 0 auto;
+    font-size:larger;
+}
+
+#about_columns {
+    padding-top: 10%;
+}
+

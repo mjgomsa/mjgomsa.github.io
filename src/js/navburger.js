@@ -1,11 +1,3 @@
-// $(document).ready(function () {
-//   $(".navbar-burger").click(function () {
-//     $(".navbar-burger, .navbar-menu", $(this).closest(".navbar")).toggleClass(
-//       "is-active"
-//     );
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(

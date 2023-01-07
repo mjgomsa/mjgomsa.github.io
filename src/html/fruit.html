@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MJ Gomez-Saavedra | Portafolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">  
+    <link rel="stylesheet" type="text/css" href="../css/blog.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/f99c50c520.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="parent_home">
+        <div class="columns">
+            <div class="column is-12">
+                <nav class="navbar is-transparent has-centered-logo-alt" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand is-hidden-desktop">
+                            <img src="/assets/images/logo-blk.png" style="height:100px">
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href = "../../index.html"> Home </a>
+                            <a class="navbar-item" href = "../../index.html#about_banner"> About </a>
+                        </div>
+                        <div class="navbar-brand is-hidden-touch">
+                                <img class = "logo" src="/assets/images/logo-blk.png">
+                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="navbar-end">
+                            <a class="navbar-item" href = "../../projects.html"> Projects </a>
+                            <a class="navbar-item"> Contact </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    <section class="hero is-fullheight" id="main_block">
+        <div class="container">
+            <h1 class="title" id="page_heading">Fruit Dodge</h1>
+            <h2 class="subtitle" id="page_subheading"> November 2022</h2>
+            <button onclick="window.location.href='https://github.com/mjgomsa/fruit-dodge-game';" class="gen_button">
+                <i class="fa-brands fa-github" id="icon"></i> GitHub
+            </button>
+            <button onclick="window.location.href='https://mjgomsa.github.io/fruit-dodge-game/';" class="gen_button">
+                <i class="fa-solid fa-expand"></i> Fullscreen
+            </button>
+            <br><br>
+            <div class="content">
+                <p> 
+                    Fruit Dodge is a single-player video game made using primarily the <span class="highlight">p5.js</span> library.<br><br>This was an assignment for my Critical Computation class at Parsons. We were tasked with making an auto-biographical game, and so naturally I decided to make a game about my hatred of fruit. Being from Costa Rica this has always been a bizarre dislike, and so I thought it would be amusing to make a game out of it. I took inspiration from Google&#39s Dinosaur game (my favorite time-passing game) and created the sprites and animations for it. The final version of this game is seen below, as well as the sprite sheet.
+                </p>
+
+                <div id="wrap">
+                    <iframe id="scaled-frame" src="https://mjgomsa.github.io/fruit-dodge-game/"></iframe>
+                </div>
+
+                <div id="sprite_container">
+                    <img class= "sprites" src="../../assets/images/sprites-fruit.png">
+                    <img class= "sprites" src="../../assets/images/sprites-girl.png">
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+                &#169 2022 <span> by </span><strong>MJ Gomez-Saavedra</strong>
+          </p>
+        </div>
+    </footer>
+
+    <script src="../js/navburger.js"></script>
+</body>
+</html>

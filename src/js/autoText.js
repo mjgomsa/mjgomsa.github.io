@@ -53,6 +53,6 @@ window.onload = function () {
 
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fcee21}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #e04046}";
   document.body.appendChild(css);
 };

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>MJ Gomez-Saavedra | Portafolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="node_modules/bulma/css/bulma.css">
-    <link rel="stylesheet" href="node_modules/hover.css/css/hover.css">
-    <link rel="stylesheet" type="text/css" href="/src/css/styles.css">  
+    <link rel="stylesheet" type="text/css" href="/src/css/index.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
 <body>
@@ -43,29 +43,11 @@
                         </nav>
             </div>
         </div>
-        <!-- <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">  
-                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="mynav">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
-            </div>
-
-            <div class="navbar-menu is-active" id="mynav">
-                <div class="navbar-start" >
-                    <a class="navbar-item" href = "index.html">Home</a>
-                    <a class="navbar-item" href = "index.html#about_banner">About</a>
-                    <img class = "logo"src="/assets/images/logo-blk.png" width="500">
-                    <a class="navbar-item" href = "projects.html">Projects</a>
-                    <a class="navbar-item">Contact</a>
-                </div>
-            </div>
-        </nav> -->
+    
 
         <section class="hero is-fullheight banner" id="home_banner">
             <div class="media-right">
-                <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hi, let&#39s walk.", "Walking is Art.", "Let&#39s get creative."]'>
+                <h1 href="" class="typewrite" data-period="2000" data-type='[ "Engineer.", "Designer.", "Artist."]'>
                         <span class="wrap"></span>
                 </h1>
 
@@ -78,26 +60,27 @@
         <div class="container" id="about_container">
             <div class="content"> 
                 <br>
-                <h1 class="title is-family-secondary" id="about_page_heading">ABOUT</h1>
+                <h1 class="title" id="about_page_heading">ABOUT</h1>
             </div>
-            <div class="columns">
+            <div class="columns" id="about_columns">
                 <div class="column m-1">
-                    <h1 class="title">Hi There!</h1>
-                    <p> My name is MJ Gomez-Saavedra. <br><br>
-                        I am a computer scientist, designer and artist focused on creative coding, AR/VR and web development.
-                        <br>
+                    <h2 class= "title" id="about_page_subheading">Hi there! </h2>
+                    <p> My name is MJ Gomez-Saavedra. I am a computer scientist, designer and artist focused on creative coding, AR/VR and web development.
+                        <br><br>
                         My work holistically approaches Science, Engineering, Fashion and Art to find a common ground between my two great passions: Tech and Design.
-                        <br>
-                        Topics that I'm interested in are game design, app development and fashion-tech integrations. 
-                        <br>
+                        <br><br>
+                        Topics that I'm interested in are game design, app development and fashion integrations in tech. 
+                        <br><br></p>
+                        <h2 class= "title" id="about_page_subheading">Education</h2>
+                        <p>
+                        The Lawrenceville School (2015-2018) <br>
+                        University of North Carolina (2018-2022) - BS in Computer Science <br>
+                        Parsons School of Design - MFA Design and Technology
                     </p>
                     </div>
                     <div class="column m-1">
-                    <h1 class="title">Bio</h1>
-                    <p>
-                        I was born in San José, Costa Rica. At sixteen, I moved to the United States to further my education at <span class="bold">The Lawrenceville School</span>. While in boarding school, I became fascinated with the arts and sciences. Upon graduation, I enrolled in the <span class="bold">University of North Carolina—Chapel Hill</span> where earned a Bachelors of Science in Computer Science and a minor in Studio Art. <br>
-                    I am currently an MFA Design and Technology candidate at Parsons School of Design.</p>
-                </div>
+                        <img src="/assets/images/self-portrait.png">
+                    </div>
                 
                     <!-- <img src="images/self-portrait.png"> -->
             </div>
@@ -113,8 +96,7 @@
         </div>
     </footer>
 
-    <!-- <script src="./src/js/autoText.js"></script> -->
-    <script async type="text/javascript" src="./js/bulma.js"></script>
+    <script src="./src/js/autoText.js"></script>
     <script src="./src/js/navburger.js"></script>
 </body>
 </html>

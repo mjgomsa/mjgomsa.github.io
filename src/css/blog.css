@@ -1,0 +1,101 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+#main_block {
+  padding-top: 8%;
+}
+
+#page_heading{
+    font-family: 'StretchPro';
+    color: black !important;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    font-size: 3vw;
+}
+
+#page_subheading {
+  font-family: "Coolvetica";
+  font-size: 2vw;
+  font-weight:bolder;
+}
+
+#icon {
+  font-size: 25px;
+}
+
+.gen_button {
+font-family: "Coolvetica";
+font-size: 22px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+cursor: pointer;
+border: 3px solid;
+padding: 0.25em 0.5em;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+position: relative;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+margin-right: 2%;
+}
+
+.gen_button:active {
+box-shadow: 0px 0px 0px 0px;
+top: 5px;
+left: 5px;
+}
+
+.content, p {
+  font-family: "Coolvetica";
+}
+
+.highlight {
+  color: #e04046;
+  font-weight:700;
+  font-family: "Coolvetica";
+}
+
+.emphasize {
+  font-size: 30px;
+  color: black;
+}
+
+
+#wrap, iframe {
+  height:493px;
+  /* background-color: red; */
+}
+
+#scaled-frame {
+  /* border: 1px solid black; */
+  width: 80vw;
+  height: 95vh;
+  margin-top: 3%;
+  display: block;
+  margin-left: 20%; 
+}
+
+#scaled-frame {
+  zoom: 0.50;
+  -moz-transform: scale(0.50);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.50);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.50);
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #scaled-frame {
+    zoom: 1;
+  }
+}
+
+#sprite_container {
+  margin-top: -10%;
+  text-align: center;
+}
+.sprites {
+  width: 65%;
+}
