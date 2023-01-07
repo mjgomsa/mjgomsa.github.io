@@ -63,26 +63,26 @@ left: 5px;
 
 
 #wrap, iframe {
-  height:493px;
+  height: 500px;
   /* background-color: red; */
 }
 
 #scaled-frame {
   /* border: 1px solid black; */
-  width: 80vw;
-  height: 95vh;
+  width: 100vw;
+  height: 150vh;
   margin-top: 3%;
   display: block;
-  margin-left: 20%; 
+  margin-left: 27%; 
 }
 
 #scaled-frame {
-  zoom: 0.50;
-  -moz-transform: scale(0.50);
+  zoom: 0.43;
+  -moz-transform: scale(0.43);
   -moz-transform-origin: 0 0;
-  -o-transform: scale(0.50);
+  -o-transform: scale(0.43);
   -o-transform-origin: 0 0;
-  -webkit-transform: scale(0.50);
+  -webkit-transform: scale(0.43);
   -webkit-transform-origin: 0 0;
 }
 
