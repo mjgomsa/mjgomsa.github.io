@@ -5,12 +5,14 @@
     <title>MJ Gomez-Saavedra | Projects</title>
     <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/src/css/index.css">  
-    <link rel="stylesheet" type="text/css" href="/src/css/projects.css"> 
+    <link rel="stylesheet" type="text/css" href="/src/css/index.css"> 
+    <link rel="stylesheet" type="text/css" href="/src/css/contact-form.css">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/f99c50c520.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class = "parent_home">
     <div class="parent_projects">
       <div class="columns">
         <div class="column is-12">
@@ -44,64 +46,53 @@
           </nav>
         </div>
     </div> 
-        <article class="flow">
-            <div class="team">
-              <ul class="auto-grid" role="list">
-                <li>
-                    <!-- target = _blank" -->
-                  <a href="/src/html/bah.html"  class="profile" >
-                    <h2 class="profile__name">Bah-Bah-Grass</h2>
-                    <p>Video Game</p>
-                    <img src="/assets/images/projects-bah.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="/src/html/fruit.html"  class="profile">
-                    <h2 class="profile__name">Fruit Dodge</h2>
-                    <p>Video Game</p>
-                    <img src="/assets/images/projects-fruit.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="/src/html/bar.html" class="profile">
-                    <h2 class="profile__name">Bar Brawl</h2>
-                    <p>Video Game</p>
-                    <img src="/assets/images/projects-crawl.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="/src/html/v-et-f.html" class="profile">
-                    <h2 class="profile__name">V et F</h2>
-                    <p>3D Scanning/ Photogrammetry</p>
-                    <img src="/assets/images/projects-vf.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="/src/html/ny-min.html"  class="profile">
-                    <h2 class="profile__name">In a NY Minute</h2>
-                    <p>Data Visualization</p>
-                    <img src="/assets/images/projects-time.png">
-                  </a>
-                </li>
-                <!-- <li>
-                  <a href="https://swop.link/cool" class="profile">
-                    <h2 class="profile__name">Hybrid Craft</h2>
-                    <p>Mixed Technologies</p>
-                    <img src="/assets/images/projects-stylist.png">
-                  </a>
-                </li> -->
-                <li>
-                  <a href="/src/html/smtp.html" class="profile">
-                    <h2 class="profile__name">You've got mail</h2>
-                    <p>Socket Programming in Python</p>
-                    <img src="/assets/images/proj-smtp.jpg">
-                  </a>
-                </li>
-              </ul>
+
+    </div>
+
+    <div class="fcf-body">
+        <h1 class="title">Stay in Contact!</h1>
+        <h2 class="subtitle">Reach out to me via Github, LinkedIn or send an email using the form below. Thanks for stopping by my website.  </h2>
+        <button onclick="window.location.href='https://github.com/mjgomsa';" class="gen_button">
+            <i class="fa-brands fa-github" id="icon"></i> GitHub
+        </button>
+        <button onclick="window.location.href='https://www.linkedin.com/in/mjgomsaav/';" class="gen_button">
+            <i class="fa-brands fa-linkedin" id="icon"></i> LinkedIn
+        </button>
+        <br><br>
+        <div id="fcf-form">
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name:</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
             </div>
-          </article>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address:</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message:</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+    
+        </form>
         </div>
     
+    </div>
+    <br><br>
+</div>
 
     <footer class="footer">
         <div class="content has-text-centered">
@@ -115,3 +106,5 @@
     
 </body>
 </html>
+
+
