@@ -112,7 +112,7 @@
     letter-spacing: 0.03ch;
     transition: 300ms transform ease;
     color: white;
-    /* -webkit-text-stroke: 1px white; */
+    /* -webkit-text-stroke: 5px black; */
     margin: 0 auto;
   }
   

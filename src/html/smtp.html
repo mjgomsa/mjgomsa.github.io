@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MJ Gomez-Saavedra | Portafolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">  
+    <link rel="stylesheet" type="text/css" href="../css/blog.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/f99c50c520.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="parent_home">
+        <div class="columns">
+            <div class="column is-12">
+                <nav class="navbar is-transparent has-centered-logo-alt" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand is-hidden-desktop">
+                            <img src="/assets/images/logo-blk.png" style="height:100px">
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href = "../../index.html"> Home </a>
+                            <a class="navbar-item" href = "../../index.html#about_banner"> About </a>
+                        </div>
+                        <div class="navbar-brand is-hidden-touch">
+                                <img class = "logo" src="/assets/images/logo-blk.png">
+                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="navbar-end">
+                            <a class="navbar-item" href = "../../projects.html"> Projects </a>
+                            <a class="navbar-item"> Contact </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    <section class="hero is-fullheight" id="main_block">
+        <div class="container">
+            <h1 class="title" id="page_heading">"You've got mail" from the 80s</h1>
+            <h2 class="subtitle" id="page_subheading">December 2021</h2>
+            <button onclick="window.location.href='https://github.com/mjgomsa/comp431';" class="gen_button">
+                <i class="fa-brands fa-github" id="icon"></i> GitHub
+            </button>
+            <!-- <button onclick="window.location.href='https://mjgomsa.github.io/ny-min/';" class="gen_button">
+                <i class="fa-solid fa-expand"></i> Fullscreen
+            </button> -->
+            <br><br>
+            <div class="content">
+                <p> 
+                    "You've got mail" is an SMTP server, client and parser that interoperate over a network by using TCP sockets, which I developed using <span class="highlight">Python</span>.<br><br>This was an assignment for my Internet Services + Protocols class at UNC-Chapel Hill. We were tasked with building an application that functioned like email did in the 1980's-1990's, via SMTP servers and clients—I decided to name this project after one of my all-time favorite films. <br><br>
+                    <span class="emphasize">Development: </span>
+                    <br>
+                    The first part of this program was creating a parser. This program acts as a server by taking in input strings from a "client" and evaluating if they're part of the SMTP grammar (pictured below). The second part of this project, was an expansion of the SMTP grammar and a preparation of error codes for strings received that are not in the grammar. The third part, was the 'meat' of the project which was the server processing. The processing works by reading a forward-file (from that of Part 2) and generating/writing to standard output the SMTP messages necessary to send the contents of the mail messages in the forward-file to a destination SMTP server. It both generates SMTP server messages and listens for the SMTP response messages that a real server would emit. The fourth and last part, is a program that puts all of the client-server functionalities into one. 
+                </p>
+
+                <div id="wrap" style="text-align: center;">
+                    <img src="../../assets/images/smtp-grammar.png" style="width:50%;">
+                    <iframe width="640" height="527" src="https://www.youtube.com/embed/2sVZHtBhIDU" title="SMTP Server-side processing example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+                &#169 2022 <span> by </span><strong>MJ Gomez-Saavedra</strong>
+          </p>
+        </div>
+    </footer>
+
+    <script src="../js/navburger.js"></script>
+</body>
+</html>
