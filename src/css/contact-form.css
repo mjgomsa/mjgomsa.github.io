@@ -198,3 +198,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   top: 5px;
   left: 5px;
   }
+
+  .highlight {
+    color: #e04046;
+    font-weight:700;
+    font-family: "Coolvetica";
+  }
